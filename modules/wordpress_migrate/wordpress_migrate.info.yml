@@ -1,0 +1,13 @@
+name: 'WordPress Migrate Support'
+description: 'Support for importing WordPress sites into Drupal'
+type: module
+package: Migration
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - migrate_plus:migrate_plus
+
+# Information added by Drupal.org packaging script on 2021-10-23
+version: '8.x-3.0-alpha5'
+project: 'wordpress_migrate'
+datestamp: 1634950768
